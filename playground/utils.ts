@@ -1,4 +1,4 @@
-import type { MessageParams } from 'element-plus'
+import type { MessageParams } from '@timus-networks/element-plus/es/components'
 
 export function $message (options?: MessageParams) {
   return ElMessage(options)

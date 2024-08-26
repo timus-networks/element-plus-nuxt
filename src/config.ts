@@ -1,11 +1,11 @@
-import * as AllComponents from 'element-plus'
+import * as AllComponents from '@timus-networks/element-plus'
 import * as AllIcons from '@element-plus/icons-vue'
-import type { ElIdInjectionContext, ElZIndexInjectionContext } from 'element-plus'
+import type { ElIdInjectionContext, ElZIndexInjectionContext } from '@timus-networks/element-plus/es/hooks'
 import type { Component } from 'vue'
 import { isVueComponent } from './utils'
 import type { Options, PresetDirectives, PresetImport } from './types'
 
-export const libraryName = 'element-plus'
+export const libraryName = '@timus-networks/element-plus'
 
 export const iconLibraryName = '@element-plus/icons-vue'
 

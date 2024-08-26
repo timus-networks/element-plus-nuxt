@@ -1,4 +1,4 @@
-import type { ElIdInjectionContext, ElZIndexInjectionContext } from 'element-plus'
+import type { ElIdInjectionContext, ElZIndexInjectionContext } from '@timus-networks/element-plus/es/hooks'
 
 /** name: export name from the library, as: the name you want to use in your project, from: the name of library */
 export type PresetImport = string | [name: string, as?: string, from?: string]
@@ -60,7 +60,7 @@ export interface Options extends TransformOptions {
    *
    * @before
    * ```ts
-   * import { useLocale } from 'element-plus'
+   * import { useLocale } from '@timus-networks/element-plus'
    * const { t } = useLocale()
    * ```
    *

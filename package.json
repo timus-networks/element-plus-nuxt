@@ -1,6 +1,6 @@
 {
-  "name": "@element-plus/nuxt",
-  "version": "1.0.10",
+  "name": "@timus-networks/element-plus-nuxt",
+  "version": "1.0.0",
   "description": "Element Plus module for Nuxt",
   "license": "MIT",
   "type": "module",
@@ -16,7 +16,7 @@
     "dist"
   ],
   "keywords": [
-    "element-plus",
+    "@timus-networks/element-plus",
     "nuxt"
   ],
   "homepage": "https://github.com/element-plus/element-plus-nuxt#readme",
@@ -34,11 +34,13 @@
     "dev:start": "node playground/.output/server/index.mjs",
     "dev:prepare": "nuxt-module-build --stub && nuxi prepare playground",
     "lint": "eslint . --fix --ext .ts,.vue,.js",
-    "lint:test": "eslint . --ext .ts,.vue,.js --max-warnings 0"
+    "lint:test": "eslint . --ext .ts,.vue,.js --max-warnings 0",
+    "prepack": "npm run build",
+    "release": "npm run prepack && changelogen --release && npm publish && git push --follow-tags"
   },
   "peerDependencies": {
     "@element-plus/icons-vue": ">=0.2.6",
-    "element-plus": ">=2"
+    "@timus-networks/element-plus": ">=1"
   },
   "dependencies": {
     "@nuxt/kit": "^3.12.3",
@@ -50,8 +52,9 @@
     "@nuxt/module-builder": "^0.5.5",
     "@nuxt/schema": "^3.12.3",
     "@nuxtjs/eslint-config-typescript": "^12.1.0",
+    "@timus-networks/element-plus": "^1.0.2",
     "@types/node": "^20.14.10",
-    "element-plus": "^2.7.7",
+    "changelogen": "^0.5.5",
     "eslint": "^8.57.0",
     "nuxi": "^3.12.0",
     "nuxt": "^3.12.3",
