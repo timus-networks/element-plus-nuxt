@@ -36,7 +36,7 @@
     "lint": "eslint . --fix --ext .ts,.vue,.js",
     "lint:test": "eslint . --ext .ts,.vue,.js --max-warnings 0",
     "prepack": "npm run build",
-    "release": "npm run prepack && changelogen --release && npm publish && git push --follow-tags"
+    "release": "npm run prepack && changelogen --release && npm publish"
   },
   "peerDependencies": {
     "@element-plus/icons-vue": ">=0.2.6",
