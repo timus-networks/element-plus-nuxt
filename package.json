@@ -19,13 +19,13 @@
     "@timus-networks/element-plus",
     "nuxt"
   ],
-  "homepage": "https://github.com/element-plus/element-plus-nuxt#readme",
+  "homepage": "https://github.com/timus-networks/element-plus-nuxt#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/element-plus/element-plus-nuxt.git"
+    "url": "git+https://github.com/timus-networks/element-plus-nuxt.git"
   },
   "bugs": {
-    "url": "https://github.com/element-plus/element-plus-nuxt/issues"
+    "url": "https://github.com/timus-networks/element-plus-nuxt/issues"
   },
   "scripts": {
     "build": "npm run dev:prepare && nuxt-module-build",
