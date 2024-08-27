@@ -1,6 +1,19 @@
 # Changelog
 
 
+## v1.1.1
+
+[compare changes](https://github.com/timus-networks/element-plus-nuxt/compare/v1.1.0...v1.1.1)
+
+### 💅 Refactors
+
+- Remove git push --flow-tags ([7a48116](https://github.com/timus-networks/element-plus-nuxt/commit/7a48116))
+- Update @timus-networks/element-plus package version ([c794340](https://github.com/timus-networks/element-plus-nuxt/commit/c794340))
+
+### ❤️ Contributors
+
+- Serkan Konakcı <serkan.konakci@timusnetworks.com>
+
 ## v1.1.0
 
 
