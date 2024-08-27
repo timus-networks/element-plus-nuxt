@@ -52,7 +52,7 @@
     "@nuxt/module-builder": "^0.5.5",
     "@nuxt/schema": "^3.12.3",
     "@nuxtjs/eslint-config-typescript": "^12.1.0",
-    "@timus-networks/element-plus": "^1.0.2",
+    "@timus-networks/element-plus": "^1.0.3",
     "@types/node": "^20.14.10",
     "changelogen": "^0.5.5",
     "eslint": "^8.57.0",
